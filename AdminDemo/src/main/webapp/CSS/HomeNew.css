@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lily+Script+One&family=Monoton&family=Montserrat:wght@500&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF7F00; /* Set the thumb color */
+  border-radius: 0px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change thumb color on hover */
+}
+
+.iconu{
+  width: 50px;
+}
+.navbar {
+  padding: 10px 12%;
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+.menu{
+  display: flex;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+a{
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+.containernk{
+  background-image: url(./imgbj.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 86vh;
+}
+.h1c{
+  text-align: center;
+  color: #FF7F00;
+  font-weight: bolder;
+  font-size: 150px;
+  padding: 0 12%;
+}
+.footer{
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

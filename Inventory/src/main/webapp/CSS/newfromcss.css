@@ -1,0 +1,14 @@
+select {
+  margin: 8px 0;
+  border-radius: 3px;
+  border: 1px solid #ff7f00;
+  padding: 4px 10px;
+  width: 100%;
+}
+textarea {
+  margin: 8px 0;
+  border-radius: 3px;
+  border: 1px solid #ff7f00;
+  padding: 4px 10px;
+  width: 100%;
+}

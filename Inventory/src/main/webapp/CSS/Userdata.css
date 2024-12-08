@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lily+Script+One&family=Monoton&family=Montserrat:wght@500&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff7f00; /* Set the thumb color */
+  border-radius: 0px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change thumb color on hover */
+}
+
+.iconu {
+  width: 50px;
+}
+.navbar {
+  padding: 10px 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+.menu {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+.containernk {
+  background-image: url(./imgbj.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 86vh;
+}
+.h1c {
+  text-align: center;
+  color: #ff7f00;
+  font-weight: bolder;
+  font-size: 150px;
+  padding: 0 12%;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.cenform {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.from_adin {
+  width: 400px;
+  border: 2px solid #ff7f00;
+  border-radius: 8px;
+  padding: 10px;
+}
+.lf {
+}
+.img_photo {
+  width: 100%;
+}
+.nebtn {
+  background-color: #ff7f00;
+  color: white;
+  margin: 8px 0;
+  cursor: pointer;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 3px;
+  border: 2px solid #ff7f00;
+  font-size: 20px;
+}
+.hscen {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.fom_add {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.frm_dt {
+  border: 2px solid #ff7f00;
+  width: 450px;
+  border-radius: 5px;
+  padding: 15px;
+}
+input {
+  margin: 8px 0;
+  border-radius: 3px;
+  border: 1px solid #ff7f00;
+  padding: 4px 10px;
+  width: 100%;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.uplode {
+  background-color: #ff7f00;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 3px;
+  border: 2px solid #ff7f00;
+  font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table th,
+table td {
+  border: 2px solid #ff7f00;
+  padding: 8px;
+}
+
+table th {
+  background-color: #ff7f00;
+  color: white;
+  font-size: 18px;
+}
+.tablefuil {
+  padding: 0 12%;
+}
+.memb {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.fm_dets {
+  display: flex;
+  gap: 15px;
+}
+.box_set {
+  display: flex;
+  height: 70vh;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.boximg {
+  width: 350px;
+  border-radius: 6px;
+  border: 2px solid #ff7f00;
+}
+.img_one {
+  border-radius: 6px;
+  width: 100%;
+
+  height: 200px;
+}
+.bkuser {
+  height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(./maxresdefault.jpg);
+}
+.shopnwbtn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7f00;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 3px;
+  border: 2px solid #ff7f00;
+  font-size: 20px;
+}
+
+.shoptopic{
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #ff7f00;
+  margin-bottom: 10px;
+}
